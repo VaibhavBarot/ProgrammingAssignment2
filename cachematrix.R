@@ -31,6 +31,6 @@ cacheSolve <- function(x, ...) {
 		}
 	
 		x[[4,1]]((solve(x[[3,1]]())))
-	##solve the 
+	##get the numeric matrix from cache, compute inverse, and set inverse in cache
 		return(x[[5,1]]())
 }
